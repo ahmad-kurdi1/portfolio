@@ -504,31 +504,3 @@ a{
 .clear {
     clear: both;
 }
-
-@media screen and (max-width: 768px) {
-    .car-box {
-        float: none !important;
-        width: 90% !important;
-        margin: 20px auto !important;
-    }
-    
-    .perf-card {
-        float: none !important;
-        width: 90% !important;
-        margin: 20px auto !important;
-        height: auto !important;
-    }
-    
-    .form-container, 
-    .form-group input[type="text"],
-    .form-group select,
-    .submit-btn {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box;
-    }
-    
-    .nav ul {
-        margin-right: 10px !important;
-    }
-}
