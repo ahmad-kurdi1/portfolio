@@ -224,11 +224,14 @@ a{
 }
 .performance-section {
     padding: 80px 20px;
+    clear:both;
+    position:relative;
     background-image: url('../images/perf.webp');
     background-repeat: no-repeat;
     background-position:center center ;
     background-size:100% 100%;
     text-align: center;
+    margin-top:50px
 }
 
 .performance-section h2 {
